@@ -9,3 +9,7 @@
 4.正则表达式
 
 5.BeautifulSoup和正则表达式
+
+6.BeautifulSoup 正则 re
+
+7.模拟登录
