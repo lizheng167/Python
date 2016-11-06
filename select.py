@@ -1,6 +1,5 @@
 # -*- coding: utf-8
 import MySQLdb
-__author__ = 'wangjj'
 
 conn = MySQLdb.connect(
     host='127.0.0.1',
