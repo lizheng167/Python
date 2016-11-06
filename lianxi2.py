@@ -5,7 +5,7 @@ import requests
 page = 1
 url = 'http://www.qiushibaike.com/hot/page/' + str(page)+'/?s=4927830'
 user_agent = 'Mozilla/4.0 (compatible; MSIE 5.5; Windows NT)'
-headers = { 'User-Agent' : user_agent }
+headers = {'User-Agent' : user_agent }
 
 try:
     wb_data = requests.get(url,headers)
