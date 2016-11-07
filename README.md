@@ -13,3 +13,7 @@
 6.BeautifulSoup 正则 re
 
 7.模拟登录
+
+8.BeautifulSoup Mysql
+
+9.BeautifulSoup xls
