@@ -14,6 +14,15 @@
 
 7.模拟登录
 
-8.BeautifulSoup Mysql
+8.BeautifulSoup Mysql  
 
 9.BeautifulSoup xls
+
+10. 12306爬需数据
+
+
+例外
+
+1.txt属于lianxi10
+
+2.select.py curd.py 属于Mysq练习
