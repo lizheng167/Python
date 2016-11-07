@@ -9,7 +9,7 @@
  Target Server Version : 50716
  File Encoding         : utf-8
 
- Date: 11/06/2016 14:47:48 PM
+ Date: 11/07/2016 22:13:35 PM
 */
 
 SET NAMES utf8;
@@ -23,13 +23,17 @@ CREATE TABLE `user` (
   `user_id` int(11) NOT NULL AUTO_INCREMENT,
   `user_name` varchar(32) NOT NULL,
   PRIMARY KEY (`user_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
---  Records of `user`
+--  Table structure for `wiki_urls`
 -- ----------------------------
-BEGIN;
-INSERT INTO `user` VALUES ('1', 'lizheng'), ('2', 'zishan');
-COMMIT;
+DROP TABLE IF EXISTS `wiki_urls`;
+CREATE TABLE `wiki_urls` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `url_name` varchar(200) NOT NULL,
+  `url_href` varchar(200) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=166 DEFAULT CHARSET=utf8;
 
 SET FOREIGN_KEY_CHECKS = 1;
